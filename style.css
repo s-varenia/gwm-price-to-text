@@ -1,0 +1,187 @@
+.col-sm {
+	background-color: #fff;
+}
+/* .col-sm:first-child {
+	padding-left: 0px;
+}
+.col-sm:last-child {
+	padding-right: 0px;
+} */
+
+body {
+	font-family: 'Roboto', sans-serif;;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 18px;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Roboto', sans-serif;;
+	font-style: normal;
+	color: #333;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 19.6px;
+	line-height: 22.9px;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;;
+	font-style: normal;
+	font-weight: 400;
+	color: #333;
+}
+
+strong {
+	font-weight: 700;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.gray td {
+	border: 2px solid #fff;
+	background-color: #f1f1f1;
+	text-align: left;
+	padding: 8px;
+}
+
+.content {
+	max-height: 270px
+}
+
+/* Таблица результатов */
+
+.result td {
+	border: none;
+	padding-bottom: 8px;
+}
+
+.result tr td:first-child {
+	width: 150px;
+	padding-right: 10px;
+	text-align: right;
+}
+
+.result tr td:last-child {
+	width: 100px;
+	padding-left: 5px;
+	text-align: left;
+}
+
+/* Таблица настроек */
+
+.settings tr td:first-child {
+	width: 250px;
+	font-weight: 500;
+}
+
+/* Шапка */
+
+.head {
+	width: 682px;
+	height: 80px;
+	padding-top: 17px;
+	margin-bottom: 26px;
+	color: #fff;
+	border-radius: 8px;
+}
+
+.head-error {
+	background: url(links/top-error.png) no-repeat, #28A745;
+}
+
+.head-result {
+	background: url(links/top-result.png) no-repeat, #28A745;
+}
+
+.head-settings {
+	background: url(links/top-settings.png) no-repeat, #28A745;
+}
+
+.head-wiki {
+	background: url(links/top-wiki.png) no-repeat, #28A745;
+}
+
+.head-info {
+	background: url(links/top-info.png) no-repeat, #28A745;
+}
+
+.head div:first-child {
+	font-weight: 500;
+	font-size: 19.6px;
+	line-height: 23px;
+}
+
+.head div:last-child {
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+/* Нижнее меню */
+
+.bottom {
+	height: 38px;
+	position: absolute;
+	bottom: 0px;
+}
+
+.bottom li {
+	display: inline;
+}
+
+.bottom ul:first-child {
+	line-height: 18px;
+	float: left;
+	padding: 0px;
+	margin: 10px 0 0 0;
+	font-family: 'Roboto', sans-serif;;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	color: #6C757D;
+}
+
+.bottom ul:first-child li {
+	margin-right: 15px;
+}
+
+.bottom ul:first-child li:last-child {
+	margin-right: 0;
+}
+
+.bottom ul:first-child li i{
+	margin-right: 5.2px;
+}
+
+.bottom ul:last-child {
+	float: right;
+	padding: 0px;
+	margin: 0px;
+}
+
+.bottom ul:last-child li {
+	margin-left: 8px;
+}
+
+.bottom ul:last-child li:first-child {
+	margin-left: 0;
+}
+
+.bottom a:link, .bottom a:visited {
+	font-family: 'Roboto', sans-serif;;
+	font-style: normal;
+	font-weight: 400;
+	color: #6C757D;
+	transition: 0.3s;
+}
+
+.bottom a:hover {
+	color: #333;
+} 
