@@ -184,4 +184,8 @@ table {
 
 .bottom a:hover {
 	color: #333;
-} 
+}
+
+.loading-bar {
+	margin-top: calc(40% - (200px/2));
+}
