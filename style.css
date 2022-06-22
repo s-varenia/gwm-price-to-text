@@ -127,7 +127,6 @@ table {
 /* Нижнее меню */
 
 .bottom {
-	height: 38px;
 	position: absolute;
 	bottom: 0px;
 }
